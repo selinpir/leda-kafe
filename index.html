@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kafe</title>
+
+    <style>
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background-color:black ;
+    padding: 20px 25px;
+
+}
+
+nav{
+    display: inline-block;
+    width: calc(100%-103px);
+    text-align: right;
+}
+
+nav ul{
+    list-style-type:  none; ;
+
+}
+nav ul li{
+display: inline-block;
+margin: 10px 25px ;
+}
+
+.leda{
+color: white;
+text-decoration:none ;
+font-weight: bold;
+font-size: 22px;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+color: #fff;
+padding: 15px 25px;
+font-size: 22px;
+}
+/* hover fare gelince üstüne tıklama */
+
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+/* menü resim */
+#section-1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0.2)),url(pexels-gordon-ky-15505793.jpg);
+    background-position: top;
+    padding: 12px;
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.btn-s1{
+    margin-left: 40%;
+    margin-top: 20%;
+    background-color:#5d1d00;
+    color: #fff;
+    padding: 25px 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: color 1s;
+}
+.btn-s1:hover{
+    color:black;
+}
+
+/* card */
+#section-2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+
+
+}
+
+.card{
+    width: 20%;
+    box-shadow:0 5px 9px 0 rgba(0,0,0,0.4) ;
+    border-radius:6px ;
+}
+.card:hover
+{
+    opacity: 0.7;
+}
+.container{
+    padding: 5px 20pc;
+
+}
+
+.container p {
+    margin: 15px 0;
+
+}
+img{
+    border-radius: 6px 6px 0 0 ;
+    width: 100%;
+
+}
+p{
+    font-size: 19px;
+
+}
+
+#section-3{
+display:flex;
+justify-content:space-around ;
+margin: 200px 0;
+}
+#section-4{
+display:flex;
+justify-content:space-around ;
+margin: 200px 0;
+}
+
+#footer
+{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+  
+}
+#section-6{
+    
+    background-color:  #5d1d00;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+
+
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+    
+    <header>
+        <a href="#" class="leda">LEDA</a>
+        <nav>
+            <ul>
+                <li> <a href="#anasayfa">ANASAYFA</a></li>
+                <li> <a href="#İçecekler">İÇECEKLER</a></li>
+                <li> <a href="#Tatlılar">TATLILAR</a></li>
+                <li><a href="#sandviçler">SANDVİÇLER</a></li>
+				<li><a href="#salatalar">SALATALAR</a></li>
+                <li><a href="contact.html">İLETİŞİM</a></li>
+               
+
+               <!-- # YÖNLENDİRME İÇİN -->
+            </ul>   
+         </nav>
+    </header>
+
+    <!-- main orta kısım en kapsamlı yer. section bölüm -->
+
+
+    <section id="section-6">
+        <p id="anasayfa"></p>
+    <p>Yorgunluk atmak ve keyifli bir mola vermek için Leda Kafe'ye uğrayın. <br> Sizi bekleyen lezzetli atıştırmalıklarımız ile kendinizi şımartın!</p>
+    <p>Lezzetli kahvelerimiz, enfes tatlılarımız ve<br> sıcak atmosferimiz ile Leda Kafe'ye gelin ve kendinizi şımartın!</p>
+    
+    </section>
+
+    <main>
+        <section id="section-1">
+            <button class="btn-s1" id="Tatlılar"> Enfes Tatlılar ve Kekler</button>
+        </section>
+        <!-- <h1 id="baslik">Başlığım</h1> -->
+
+        <section id="section-2">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Brownie</h2>
+                <p>Amerikan usulü çikolatalı kek</p>
+                <p>28 TL</p>
+
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/14107/pexels-photo-14107.jpeg" alt="">
+                <div class="container"></div>
+                <h2>Cheesecake</h2>
+                <p> Vişneli veya çilekli cheesecake </p>
+                <p>32 TL</p>
+                
+
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/1657343/pexels-photo-1657343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Muffin</h2>
+                <p>Çikolatalı, muzlu veya elmalı muffin</p>
+                <p>26 TL</p>
+            </div>
+        </section>
+
+        <section id="section-2">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/189537/pexels-photo-189537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Cookie</h2>
+                <p>Çikolatalı veya beyaz çikolatalı cookie</p>
+                <p>18 TL</p>
+
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/12035685/pexels-photo-12035685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Tiramisu</h2>
+                <p>İtalyan usulü tiramisu</p>
+                <p>30 TL</p>
+
+            </div>
+
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/452092395/tr/foto%C4%9Fraf/semolina.jpg?b=1&s=612x612&w=0&k=20&c=dRw5ohA-wubdj6vo3eGCyBxHMe07nDMjLDb-sC9EHOc=" alt="">
+                <div class="container"></div>
+                <h2>İrmik Helvası</h2>
+                <p>Geleneksel Türk irmik helvası</p>
+                <p>17 TL</p>
+
+            </div>
+        </section>
+
+
+
+
+        <section id="section-1">
+            <button class="btn-s1 " id="İçecekler"> Lezzetli İçecekler</button>
+        </section>
+
+       
+
+			
+        <section id="section-3">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/11284833/pexels-photo-11284833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Türk Kahvesi</h2>
+                <p>Geleneksel Türk kahvesi</p>
+                <P>32 TL</P>
+
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2648988/pexels-photo-2648988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Espresso</h2>
+                <p>Küçük boy espresso</p>
+                <p>27 TL</p>
+
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="container"></div>
+                <h2>Cappuccino</h2>
+                <p>Küçük boy cappuccino</p>
+                <p>25 TL</p>
+            </div>
+
+            <div class="card">
+                <img src="https://limonistcustomer.com/AZUREBSPHRS/mobil/prd_img/6d192481c72b6e4ccbba6cf1810df238.jpg" alt="">
+                <div class="container"></div>
+                <h2>Latte</h2>
+                <p>Küçük boy latte</p>
+                <p>22 TL</p>
+            </div>
+        </section>
+
+        <section id="section-4">
+            <div class="card">
+                    <img src="http://www.puppetgocoffee.com/wp-content/uploads/2021/08/mocha_banner_son.jpg" alt="">
+                    <div class="container"></div>
+                    <h2>Mocha</h2>
+                    <p>Küçük boy Mocha</p>
+                    <p>25 TL</p>
+            </div>
+
+        <div class="card">
+                <img src="http://www.puppetgocoffee.com/wp-content/uploads/2021/08/AMERICANO_CAPPUCCINO-2.jpg" alt="">
+                <div class="container"></div>
+                <h2>Americano</h2>
+                <p>Küçük boy Americano</p>
+                <p>30 TL</p>
+            </div>
+        <div class="card">
+                    <img src="https://media.istockphoto.com/id/540519504/tr/foto%C4%9Fraf/fresh-smoothies-in-glass.jpg?b=1&s=612x612&w=0&k=20&c=71ei8Zk0NIu-A7Ps6beBwtrhF36cHraAhVVQ2b9rpzw=" alt="">
+                    <div class="container"></div>
+                    <h2>Meyve Suyu</h2>
+                    <p>Portakal, elma, greyfurt</p>
+                    <p>20 TL</p>   
+        </div>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div class="container"></div>
+            <h2>Smoothie</h2>
+            <p>Çilek, muz, süt</p>
+            <p>30 TL</p>
+        </div>
+        </section>
+
+
+    </main>
+
+    <section id="section-1">
+        <button class="btn-s1 " id="sandviçler">Lezzetli Sandviçler</button>
+    </section>
+
+   
+
+        
+    <section id="section-3">
+        <div class="card">
+            <img src="https://www.tarifbulutu.com/wp-content/uploads/2018/09/6-nisan-gunun-menusu-sandvic-tarifleri-8882027.jpeg" alt="">
+            <div class="container"></div>
+            <h2>Tavuklu sandviç </h2>
+            <p>tavuk, marul, domates, turşu, mayonez</p>
+            <P>33 TL</P>
+
+        </div>
+
+        <div class="card">
+            <img src="https://i.haberglobal.com.tr/storage/haber/2021/06/23/dunyaca-unlu-fast-food-zinciri-subway-in-sandviclerinde-ton-baligi-dna-sina-rastlanmadi_1624446642.jpg" alt="">
+            <div class="container"></div>
+            <h2>Ton balıklı sandviç </h2>
+            <p>ton balığı, marul, domates, turşu, hardal sos</p>
+            <p>27 TL</p>
+
+        </div>
+
+        <div class="card">
+            <img src="https://hamarat.org/images/Peynirli-Sandvic-26.jpg" alt="">
+            <div class="container"></div>
+            <h2>Peynirli sandviç</h2>
+            <p>cheddar peyniri, domates, marul, mayonez</p>
+            <p>12 TL</p>
+        </div>
+
+        <div class="card">
+            <img src="https://cdn.yemek.com/mncrop/620/388/uploads/2019/04/hindi-fumeli-bol-proteinli-sandvic.jpg" alt="">
+            <div class="container"></div>
+            <h2>Somonlu sandviç</h2>
+            <p>somon, avokado, marul, soğan, limon sos</p>
+            <p>27 TL</p>
+        </div>
+    </section>
+
+   
+    <section id="section-1">
+        <button class="btn-s1 " id="salatalar">Lezzetli Salatalar</button>
+    </section>
+
+    <section id="section-3">
+        <div class="card">
+            <img src="https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/ogt/tavuklu-sezar-salata.webp" alt="">
+            <div class="container"></div>
+            <h2>Tavuklu Caesar salatası</h2>
+            <p>marul, tavuk, kruton, parmesan peyniri, Caesar sos</p>
+            <P>35 TL</P>
+
+        </div>
+
+        <div class="card">
+            <img src="https://somontarifi.com/wp-content/uploads/2014/12/fume-somon-salata-tarifi.jpg" alt="">
+            <div class="container"></div>
+            <h2>Somonlu roka salatası</h2>
+            <p>roka, somon, avokado, kiraz domates, fesleğen sos</p>
+            <p>37 TL</p>
+
+        </div>
+
+        <div class="card">
+            <img src="https://cdn.yemek.com/mnresize/1250/833/uploads/2019/02/mevsim-salatasi-sunum-yemekcom.jpg" alt="">
+            <div class="container"></div>
+            <h2>Mevsim yeşillikleri salatası</h2>
+            <p>marul, roka, taze nane, fındık, portakal sos/p>
+            <p>20 TL</p>
+        </div>
+
+        <div class="card">
+            <img src="https://img-s1.onedio.com/id-612febad3eb79c54149ef99e/rev-0/w-620/f-jpg/s-5da45b5d5596d1c46efd382847c42e227deb523a.jpg" alt="">
+            <div class="container"></div>
+            <h2>Çoban salatası </h2>
+            <p>salatalık, domates, yeşil biber, beyaz peynir, zeytinyağı</p>
+            <p>18 TL</p>
+        </div>
+    </section>
+
+
+</main>
+    <footer>
+        <!-- genelde iletişim adreslieri bulurun -->
+   
+        <p>Tüm hakları saklıdır. &copy; Leda Kafe</p>
+    </footer>
+
+
+</body>
+</html>
